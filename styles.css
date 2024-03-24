@@ -1,0 +1,57 @@
+body {
+    background-color: #002244;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+header {
+    background-image: url("https://c1.peakpx.com/wallpaper/619/777/102/lift-off-rocket-launch-spacex-launch-wallpaper-preview.jpg");
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-size: 4rem;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+.intro, .features, .cta {
+    padding: 50px;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    margin-bottom: 15px;
+}
+
+.cta a.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #113355;
+    padding: 20px;
+}
